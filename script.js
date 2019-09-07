@@ -12,7 +12,7 @@
         })
         .catch(function(err) {
             console.log(err);
-        })
+        });
        document.getElementsByTagName("IMG")[0].style.display = 'none';
     }
 
