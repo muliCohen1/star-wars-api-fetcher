@@ -47,8 +47,8 @@
            data.results.forEach(function(film) {
                output += `
                <div class="card card-body mb-4">
-                <h3>Title: ${film.title}</h3>
-                <p>Post: ${film.opening_crawl}</p>
+                <h3>${film.title}</h3>
+                <p>${film.opening_crawl}</p>
                </div>
                `;
            });
