@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Luke Skywalker",
+        "email": "luke@gmail"
+    },
+    {
+        "id": 2,
+        "name": "Biggs Darklighter",
+        "email": "biggie@gmail"
+    },
+    {
+        "id": 3,
+        "name": "Obi-Wan Kenobi",
+        "email": "bobie@gmail"
+    }
+]
