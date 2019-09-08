@@ -13,7 +13,8 @@
         .catch(function(err) {
             console.log(err);
         });
-       document.getElementsByTagName("IMG")[0].style.display = 'none';
+       if (document.getElementsByTagName("IMG")[0]) 
+            document.getElementsByTagName("IMG")[0].style.display = 'none'; //substitute for using jquery/looping over all button elements, as functions are more reusable than buttons - a tradeoff with DRY. muliCohen
     }
 
     function getUsers() {
@@ -34,7 +35,8 @@
            });
         document.getElementById('output').innerHTML = output;
         });
-       document.getElementsByTagName("IMG")[0].style.display = 'none';
+        if (document.getElementsByTagName("IMG")[0]) 
+             document.getElementsByTagName("IMG")[0].style.display = 'none';
     }    
 
     function getPosts() {
@@ -54,5 +56,6 @@
            });
         document.getElementById('output').innerHTML = output;
         });
-       document.getElementsByTagName("IMG")[0].style.display = 'none';
-    }  
+        if (document.getElementsByTagName("IMG")[0]) 
+             document.getElementsByTagName("IMG")[0].style.display = 'none';
+    }    
